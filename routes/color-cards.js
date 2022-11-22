@@ -10,6 +10,7 @@ router.get('/esther', (req, res, next) => {
 })
 
 router.get('/daniela', (req, res, next) => {
+
     res.render('daniela.hbs')
 })
 
