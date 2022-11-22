@@ -1,0 +1,31 @@
+.landing {
+     display: flex;
+     color: white;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 250px;
+     margin-bottom: 0px;
+    
+
+}
+
+body {
+    background-color: black;
+}
+
+#title {
+    font-size: 100px;    
+    color: rgb(196, 152, 152)
+    
+   
+}
+
+#line {
+    
+    width: 50%;
+    height: 5px;
+    background-color:white;
+    
+   
+}
