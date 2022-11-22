@@ -12,3 +12,5 @@ router.get('/esther', (req, res, next) => {
 router.get('/daniela', (req, res, next) => {
     res.render('/views/daniela.hbs')
 })
+
+module.exports = router
