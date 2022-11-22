@@ -1,6 +1,6 @@
-<h1 class="logIn">Log in</h1>
+<h1 class="signUp">Sign Up</h1>
 
-<form action="/auth/logIn" method="post" class="logIn">
+<form action="/auth/signUp" method="post" class="signUp">
 
   <div>
     <label for="userName">User name</label>
@@ -20,16 +20,12 @@
   </div>
 
   <br />
-  <button type="submit" class="button">Log in</button>
-
-<br>
+  <button type="submit" class="button">Sign up!</button>
 
 {{#if errorMessage}}
 <p style="color: red;">{{errorMessage}}</p>
 {{/if}}
 
 
-
 </form>
-
 
