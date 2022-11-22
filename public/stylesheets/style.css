@@ -6,6 +6,7 @@ a {
   color: white;
   text-decoration: none;
   font-size: 20px;
+  
 }
 
 .navbar {
@@ -27,7 +28,7 @@ a {
 
 .button {
   transition-duration: 0.4s;
-  background-color:white;
+  background-color: white;
   border: none;
   border-color: #fd2323;
   color: black;
@@ -36,11 +37,31 @@ a {
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
 .button:hover {
   background-color: #fd2323;
-  color: white; 
+  color: white;
+}
+
+.color-cards {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  margin-top: 10%;  
+  margin-left: -100px;
+  
+}
+
+.cards{
+  
+  border-radius: 15%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header{
+  background-color: #800020;
 }

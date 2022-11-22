@@ -1,16 +1,17 @@
 const router = require('express').Router();
-const User = require('../models/user.model');
+// const User = require('../models/user.model');
 
 router.get('/courtney', (req, res, next) => {
-    res.render('/views/courtney.hbs')
+    res.render('courtney.hbs')
 })
 
 router.get('/esther', (req, res, next) => {
-    res.render('/views/esther.hbs')
+    res.render('esther.hbs')
 })
 
 router.get('/daniela', (req, res, next) => {
-    res.render('/views/daniela.hbs')
+
+    res.render('daniela.hbs')
 })
 
-module.exports = router
+module.exports = router;
