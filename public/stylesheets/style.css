@@ -64,4 +64,21 @@ a {
 
 .header{
   background-color: #800020;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.originDani{
+text-align: center;
+border-color: #800020;
+font-size: 25px;
+
+
+}
+
+.opinionDani{
+  text-align: center;
+  border-color: #800020;
+  font-size: 25px;
 }
